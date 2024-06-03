@@ -58,22 +58,9 @@ const SignUpPage = () => {
         style={{ display: 'block', marginBottom: '10px', width: '100%', padding: '10px' }}
       >
         <option value="">MBTI 선택</option>
-        <option value="INTJ">INTJ</option>
-        <option value="INTP">INTP</option>
-        <option value="ENTJ">ENTJ</option>
-        <option value="ENTP">ENTP</option>
-        <option value="INFJ">INFJ</option>
-        <option value="INFP">INFP</option>
-        <option value="ENFJ">ENFJ</option>
-        <option value="ENFP">ENFP</option>
-        <option value="ISTJ">ISTJ</option>
-        <option value="ISFJ">ISFJ</option>
-        <option value="ESTJ">ESTJ</option>
-        <option value="ESFJ">ESFJ</option>
-        <option value="ISTP">ISTP</option>
-        <option value="ISFP">ISFP</option>
-        <option value="ESTP">ESTP</option>
-        <option value="ESFP">ESFP</option>
+        <option value="외향">외향</option>
+        <option value="내향">내향</option>
+        <option value="모름">모름</option>
       </select>
       <select
         value={gender}
