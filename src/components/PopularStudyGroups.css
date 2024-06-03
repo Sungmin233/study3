@@ -1,0 +1,80 @@
+/* src/components/PopularStudyGroups.css */
+.popular-study-groups {
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.popular-study-groups-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4b5563;
+}
+
+.study-groups-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.study-group-card {
+  flex: 0 0 calc(33.333% - 10px);
+  margin-bottom: 20px;
+  border: 1px solid #d1d5db;
+  background-color: #edf2f7;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.study-group-card h3 {
+  margin-bottom: 10px;
+}
+
+.join-button,
+.leave-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.join-button {
+  background-color: #fde68a;
+}
+
+.leave-button {
+  background-color: #ef4444;
+  color: #fff;
+}
+
+.no-study-groups {
+  text-align: center;
+  color: #4b5563;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #f3f4f6;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #4b5563;
+  color: #fff;
+}
